@@ -1,6 +1,84 @@
-h1{
+body {
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 144px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
+    url('../Images/tokyo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 250px 100px;
+}
+
+header h3 {
+    font-size: 30px;
+    margin: 0px;
+        letter-spacing: 3px;
+
+}
+
+h1{
+    font-size: 70px;
+    margin: 0px;
+        letter-spacing: 3px;
+
+    
+}
+
+header h2{
+    font-size: 24px;
+        letter-spacing: 2px;
+
+}
+
+header a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: white;
+    padding: 16px 32px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    header {
+        padding: 100px 50px
+    }
+
+    header h3 {
+        font-size: 12px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    header h2{ 
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    header a{
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+
+    footer {
+        font-size: 12px;
+    
+    }
+
 }
