@@ -43,6 +43,7 @@ header a{
     background-color: white;
     padding: 16px 32px;
     border-radius: 5px;
+    display: inline-block;
 }
 
 footer {
