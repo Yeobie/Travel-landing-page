@@ -10,6 +10,25 @@ body {
 section{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 40px;
+}
+
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;  
+}
+
+.grid-3-col-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
 }
 
 header {
@@ -29,12 +48,10 @@ header h3 {
 
 }
 
-h1{
+header h1{
     font-size: 70px;
     margin: 0px;
         letter-spacing: 3px;
-
-    
 }
 
 header h2{
@@ -52,17 +69,22 @@ header a{
     display: inline-block;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-gap: 20px;
+
+main h3 {
+    margin: 0;
+}
+
+main p{
+    font-size: 16px;
+    line-height: 1.8;
+    opacity: 0.7;
 }
 
 footer {
    background-image: linear-gradient(rgba(73,31,52, 0.8), rgba(107,11,59, 0.8)), url(../Images/tokyo\ footer.jpeg); 
    background-repeat: no-repeat;
    background-size: cover;
-   padding: 80px 0px;
+   
    color: white;
    font-size: 13px;
 }
@@ -86,7 +108,7 @@ footer p{
     opacity: 0.7;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
     header {
         padding: 100px 50px
     }
@@ -109,9 +131,23 @@ footer p{
         padding: 12px 24px;
     }
 
+
+.grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px
+}
+
+main img{
+display: block;
+margin: 0 auto
+}
+
+section {
+    padding: 50px 30px;
+}
+
     footer {
         font-size: 12px;
-    
     }
 
 }
