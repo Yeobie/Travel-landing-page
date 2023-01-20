@@ -6,6 +6,12 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+section{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 header {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
     url('../Images/tokyo.jpeg');
@@ -46,12 +52,35 @@ header a{
     display: inline-block;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
 footer {
-    text-align: center;
+   background-image: linear-gradient(rgba(73,31,52, 0.8), rgba(107,11,59, 0.8)), url(../Images/tokyo\ footer.jpeg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 80px 0px;
+   color: white;
+   font-size: 13px;
+}
+
+footer div{
+    margin-right:20px;
 }
 
 footer a {
-    text-decoration: none;
+    color:white;
+}
+
+footer ul {
+    margin:0px;
+    padding: 0px;
+}
+
+footer li {
+    list-style: none;
 }
 
 @media (max-width: 900px) {
