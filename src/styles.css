@@ -13,7 +13,7 @@ section{
     padding: 80px;
 }
 
-.secondary {
+.secondary, .media {
     background-color: #f7e8f5;
 }
 
@@ -154,6 +154,33 @@ main p{
         display: flex;
     justify-content: center;
 }
+
+.table-container{
+    overflow-x: auto;
+}
+
+.table{
+    padding: 0px;
+    margin: 40px 0px;
+    text-align: center;
+}
+
+th {
+    background-color: #6b0b3b;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+td{
+   padding: 10px;
+}
+
+table a{
+text-decoration: none;
+color: #6b0b3b;
+}
+
 
 .media {
     text-align: center;
