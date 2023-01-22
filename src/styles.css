@@ -110,6 +110,11 @@ main p{
     margin-top: 20px;
 }
 
+.embed{
+    width: 100%;
+    aspect-ratio: 16/9
+}
+
 .card h3 {
     text-align: left;
     font-size: 18px;
@@ -124,6 +129,7 @@ main p{
 }
 .card p{
     font-size: 14px;
+    margin: 0px 0px 20px 0px;
 }
 
 .card a{
@@ -138,9 +144,21 @@ main p{
     font-weight: 700px;
         display: flex;
     justify-content: center;
-
-
 }
+
+.media {
+    text-align: center;
+}
+
+.media .grid-3-col {
+    margin-top: 20px;
+}
+
+.photos {
+    display: block;
+    margin: 0 auto;
+}
+
 footer {
    background-image: linear-gradient(rgba(73, 31, 52, 0.8), rgba(107,11,59, 0.8)), url(../Images/tokyo\ footer.jpeg); 
    background-repeat: no-repeat;
@@ -205,6 +223,11 @@ margin: 0 auto
 
 section {
     padding: 50px 30px;
+}
+
+.photos {
+    display: block;
+    margin: 0 auto;
 }
 
     footer {
